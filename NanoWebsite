@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Million Nano Homepage</title>
+    <link rel="shortcut icon" href="./favicon.png">
+    <link rel="stylesheet" href="./banner-styles.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./vue.min.js"></script>
+    <script src="./axios.min.js"></script>
+    <script src="./script.js" async defer></script>
+</head>
+<body>
+    <div style="display: none;">The Million Nano Homepage. A historic internet event, re-lived with Nano currency. The home page consists of a million pixels arranged in a 1000 × 1000 pixel grid; 1 NANO per pixel in 10 × 10 blocks.</div>
+
+    <div id="app">
+        <div id="tooltip" style="display: none;">The rules</div>
+
+        <center>
+            <table bgcolor="#e1e1e1" cellpadding="0" cellspacing="0" width="1002">
+                <tbody>
+                    <tr>
+                        <td width="1"></td>
+                        <td>
+                            <div id="toplogo">
+                                <a href="https://millionnanohomepage.com/" target="_self">
+                                    <img alt="The Million Nano Homepage" src="./logo.png" style="position: absolute; left: 7px; top: 7px; z-index: 1; max-width: 360px;">
+                                </a>
+                                <div style="display: flex; position: absolute; z-index: 99; right: 0; justify-content: space-evenly; top: 14px; color: #fff; font-size: 13px;">
+                                    <div>1,000,000 Pixels</div>
+                                    <div style="padding: 0 5px;">·</div>
+                                    <div style="text-decoration: underline; cursor: pointer;">Ӿ1 Per Block</div>
+                                    <div style="padding: 0 5px;">·</div>
+                                    <div>Own a piece of internet history!</div>
+                                    <div class="status">
+                                        <div><span>Sold</span>: <span>52K</span></div>
+                                        <span style="padding: 0 5px;">·</span>
+                                        <div><span>Available</span>: <span style="color: #2ecc71;">948K</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td width="1"></td>
+                    </tr>
+                    <tr>
+                        <td width="1"></td>
+                        <td bgcolor="#d9ab22" height="20" style="background-image: url('./css/navbg.gif'); background-size: contain;">
+                            <table cellpadding="0" cellspacing="0" height="20" width="1000" style="padding: 5px;">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div id="widget">
+                                                <a href="https://twitter.com/nano2dev" id="follow-button" title="Follow @Nano2Dev on Twitter">
+                                                    Follow <b>@nano2dev</b>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td style="padding-left: 4%;">
+                                            <a href="#" class="nav">Homepage</a> |
+                                            <a href="#" class="nav">Buy Pixels</a> |
+                                            <a href="#" class="nav">FAQ</a> |
+                                            <a href="#" class="nav">Rich List</a> |
+                                            <a href="#" class="nav">Press</a> |
+                                            <a href="#" class="nav">Contact Me</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td width="1"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr>
+                        <td width="1"></td>
+                        <td id="wrapper" height="1000" valign="top" width="1000">
+                            <div style="z-index: 1; display: flex; flex-wrap: wrap;">
+                                <!-- Pixel grid here -->
+                            </div>
+                        </td>
+                        <td width="1"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </center>
+    </div>
+</body>
+</html>
